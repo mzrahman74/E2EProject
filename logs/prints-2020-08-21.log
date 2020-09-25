@@ -1,0 +1,6 @@
+17:25:21.598 [AsyncHttpClient-3-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+17:25:21.599 [AsyncHttpClient-3-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.linkCapacity: 16
+17:25:21.599 [AsyncHttpClient-3-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.ratio: 8
+17:25:26.867 [TestNG-tests-3] INFO  org.example.validateTitle - Driver is installed. 
+17:25:31.370 [TestNG-tests-3] INFO  org.example.validateTitle - Navigated to Home page
+17:25:31.881 [TestNG-tests-2] INFO  org.example.validateTitle - Navigation bar displayed.

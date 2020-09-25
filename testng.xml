@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel ="tests">
+    <listeners>
+        <listener class-name="org.example.Listeners"/>
+
+    </listeners>
+    <test name="Validate HomePage">
+             <classes>
+            <class name="org.example.HomePage"/>
+             </classes>
+        </test>
+        <test name="Validate navigation bar">
+        <classes>
+                 <class name="org.example.validateNavigationBar"/>
+        </classes>
+        </test>
+    <test name="Validate Title">
+        <classes>
+                 <class name="org.example.validateTitle"/>
+
+<!--                <methods>-->
+<!--                    <include name=/>-->
+<!--                </methods>-->
+             <!-- org.Java.spice.windows -->
+        </classes>
+    </test> <!-- SeleniumProject -->
+</suite> <!-- Default Suite -->
