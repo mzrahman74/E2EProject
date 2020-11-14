@@ -4,35 +4,13 @@
   <listeners>
     <listener class-name="org.example.Listeners"/>
   </listeners>
-  <test thread-count="5" parallel="tests" name="Validate Title(failed)" verbose="0">
-    <classes>
-      <class name="org.example.validateTitle">
-        <methods>
-          <include name="verify_validateTitle"/>
-          <include name="teardown"/>
-          <include name="initialize"/>
-        </methods>
-      </class> <!-- org.example.validateTitle -->
-    </classes>
-  </test> <!-- Validate Title(failed) -->
-  <test thread-count="5" parallel="tests" name="Validate navigation bar(failed)" verbose="0">
-    <classes>
-      <class name="org.example.validateNavigationBar">
-        <methods>
-          <include name="teardown"/>
-          <include name="verify_NavigationBar"/>
-          <include name="initialize"/>
-        </methods>
-      </class> <!-- org.example.validateNavigationBar -->
-    </classes>
-  </test> <!-- Validate navigation bar(failed) -->
   <test thread-count="5" parallel="tests" name="Validate HomePage(failed)" verbose="0">
     <classes>
       <class name="org.example.HomePage">
         <methods>
           <include name="teardown"/>
           <include name="initialize"/>
-          <include name="basePageNavigation"/>
+          <include name="basePageNavigation" invocation-numbers="0 1"/>
         </methods>
       </class> <!-- org.example.HomePage -->
     </classes>

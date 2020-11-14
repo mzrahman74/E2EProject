@@ -13,7 +13,7 @@ public class PasswordReset {
 
 
     By useremail = By.id("user_email");
-    By instruction = By.cssSelector("intput[name='commit'}");
+    By instruction = By.cssSelector("input[name='commit']");
 
     public WebElement getUserEmail(){
         return driver.findElement(useremail);

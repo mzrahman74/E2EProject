@@ -24,14 +24,16 @@ public class HomePage extends base {
   }
 
   @Test(dataProvider = "getData")
-  public void basePageNavigation(String Username, String Password, String text) throws IOException {
+  public void basePageNavigation(String Username, String Password)  {
     driver.get(prop.getProperty("url"));
     LandingPage l = new LandingPage(driver);
     LoginPage lp = l.getLogin();
     lp.getUserName().sendKeys(Username);
     lp.getPassword().sendKeys(Password);
     lp.getLogIn().click();
-    log.info(text);
+    log.info("User successfully log in not successful.");
+
+
 
   }
 
@@ -39,22 +41,23 @@ public class HomePage extends base {
   public Object[][] getData() {
     // Row stands for how many different data types  should run
     // coloumn stands for how many values per each test
-    Object[][] data = new Object[2][3];
+    Object[][] data = new Object[2][2];
     // 0 th row
-    data[0][0] = "nonrestricteduser@qw.com";
-    data[0][1] = "Password1";
-    data[0][2] = "Restricted User";
+    data[0][0] = "username";
+    data[0][1] = "password";
+
 
     // 1st row
-    data[1][0] = "restricteduser@qw.com";
-    data[1][1] = "Password2";
-    data[1][2] = "Non Restricted User";
+    data[1][0] = "username1";
+    data[1][1] = "Password1";
+
 
     return data;
   }
 
   @AfterTest
   public void teardown() {
+
     driver.close();
   }
 }

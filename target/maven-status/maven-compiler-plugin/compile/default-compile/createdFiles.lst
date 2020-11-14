@@ -1,0 +1,6 @@
+pageObjects/LandingPage.class
+resources/ExtentReporterNG.class
+resources/base.class
+pageObjects/LogoutPage.class
+pageObjects/LoginPage.class
+pageObjects/PasswordReset.class

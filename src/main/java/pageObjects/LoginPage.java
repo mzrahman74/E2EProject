@@ -26,7 +26,8 @@ public class LoginPage {
         return driver.findElement(password);
     }
     public WebElement getLogIn(){
-        return driver.findElement(login);
+         return driver.findElement(login);
+
     }
 
     public PasswordReset getForgotPassword(){

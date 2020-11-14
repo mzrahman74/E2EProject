@@ -1,0 +1,5 @@
+18:37:49.690 [AsyncHttpClient-3-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+18:37:49.692 [AsyncHttpClient-3-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.linkCapacity: 16
+18:37:49.692 [AsyncHttpClient-3-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.ratio: 8
+18:37:52.610 [TestNG-tests-3] DEBUG io.netty.util.internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0x028969a65f81fba8
+18:37:53.566 [TestNG-tests-3] INFO  org.example.validateTitle - Driver is installed. 

@@ -1,0 +1,6 @@
+09:01:06.856 [AsyncHttpClient-3-1] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+09:01:06.858 [AsyncHttpClient-3-1] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.linkCapacity: 16
+09:01:06.858 [AsyncHttpClient-3-1] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.ratio: 8
+09:01:13.370 [TestNG-tests-3] DEBUG io.netty.util.internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0x8db3d91a83182289
+09:01:13.986 [TestNG-tests-3] INFO  org.example.validateTitle - Driver is installed. 
+09:01:13.976 [TestNG-tests-4] INFO  org.example.ResetPassword - Driver is installed.

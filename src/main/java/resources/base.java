@@ -27,9 +27,9 @@ import java.util.concurrent.TimeUnit;
             prop.load(fis);
             FileOutputStream fos = new FileOutputStream("src/main/java/resources/data.properties");
             prop.store(fos, null);
-            prop.setProperty("browser", "firefox");
+            prop.setProperty("browser", "chrome");
             // mvn test -Dbrowser = firefox
-           // String browserName = System.getProperty("browser");
+          // String browserName = System.getProperty("browser");
             String browserName = prop.getProperty("browser");
 
             if(browserName.equals("firefox")) {
@@ -42,7 +42,7 @@ import java.util.concurrent.TimeUnit;
             } else if (browserName.equals("chrome") ) {
                 driver = new ChromeDriver();
             }
-            driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+            driver.manage().timeouts().implicitlyWait(50, TimeUnit.SECONDS);
             driver.manage().window().maximize();
             return driver;
 

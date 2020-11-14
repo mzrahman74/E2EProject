@@ -11,9 +11,9 @@ public class LandingPage {
         this.driver = driver;
     }
 
-  By signin =By.cssSelector("a[href*='sign_in']");
-  By features = By.cssSelector("div[class='text-center'] h2");
-  By navigation = By.cssSelector(".nav.navbar-nav.navbar-right");
+  By signin =By.cssSelector("a[class='theme-btn register-btn']");
+  By features = By.xpath(" //h2[contains(text(),'Featured Courses')]");
+  By navigation = By.xpath("//header/div[2]/div[1]/div[1]/div[2]/nav[1]/div[2]/ul[1]");
 
 
 //    By signin =By.cssSelector("//span[contains(text(),'Login')]");

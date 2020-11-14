@@ -1,200 +1,93 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="0" failed="0" skipped="4">
+<testng-results ignored="0" total="3" passed="1" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-09-25T07:56:46 CDT" name="Suite" finished-at="2020-09-25T07:56:46 CDT" duration-ms="145">
+  <suite started-at="2020-10-28T10:14:30 CDT" name="Suite" finished-at="2020-10-28T10:14:39 CDT" duration-ms="9733">
     <groups>
     </groups>
-    <test started-at="2020-09-25T07:56:46 CDT" name="Validate Title" finished-at="2020-09-25T07:56:46 CDT" duration-ms="145">
+    <test started-at="2020-10-28T10:14:30 CDT" name="Validate Title" finished-at="2020-10-28T10:14:38 CDT" duration-ms="8466">
       <class name="org.example.validateTitle">
-        <test-method is-config="true" signature="initialize()[pri:0, instance:org.example.validateTitle@60a2630a]" started-at="2020-09-25T07:56:46 CDT" name="initialize" finished-at="2020-09-25T07:56:46 CDT" duration-ms="67" status="FAIL">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at resources.base.initializeDriver(base.java:35)
-at org.example.validateTitle.initialize(validateTitle.java:21)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
-at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:619)
-at org.testng.TestRunner.beforeRun(TestRunner.java:609)
-at org.testng.TestRunner.run(TestRunner.java:580)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:68)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-at java.base/java.lang.Thread.run(Thread.java:830)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+        <test-method is-config="true" signature="initialize()[pri:0, instance:org.example.validateTitle@60a2630a]" started-at="2020-10-28T10:14:30 CDT" name="initialize" finished-at="2020-10-28T10:14:34 CDT" duration-ms="4556" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method signature="verify_validateTitle()[pri:0, instance:org.example.validateTitle@60a2630a]" started-at="2020-09-25T07:56:46 CDT" name="verify_validateTitle" finished-at="2020-09-25T07:56:46 CDT" duration-ms="0" status="SKIP">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at resources.base.initializeDriver(base.java:35)
-at org.example.validateTitle.initialize(validateTitle.java:21)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
-at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:619)
-at org.testng.TestRunner.beforeRun(TestRunner.java:609)
-at org.testng.TestRunner.run(TestRunner.java:580)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:68)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-at java.base/java.lang.Thread.run(Thread.java:830)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+        <test-method signature="verify_validateTitle()[pri:0, instance:org.example.validateTitle@60a2630a]" started-at="2020-10-28T10:14:34 CDT" name="verify_validateTitle" finished-at="2020-10-28T10:14:38 CDT" duration-ms="3847" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_validateTitle -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:org.example.validateTitle@60a2630a]" started-at="2020-09-25T07:56:46 CDT" name="teardown" finished-at="1969-12-31T18:00:00 CST" duration-ms="-1601038606511" status="SKIP">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:org.example.validateTitle@60a2630a]" started-at="2020-10-28T10:14:38 CDT" name="teardown" finished-at="2020-10-28T10:14:38 CDT" duration-ms="55" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- org.example.validateTitle -->
     </test> <!-- Validate Title -->
-    <test started-at="2020-09-25T07:56:46 CDT" name="Validate navigation bar" finished-at="2020-09-25T07:56:46 CDT" duration-ms="145">
-      <class name="org.example.validateNavigationBar">
-        <test-method is-config="true" signature="initialize()[pri:0, instance:org.example.validateNavigationBar@2a8d39c4]" started-at="2020-09-25T07:56:46 CDT" name="initialize" finished-at="2020-09-25T07:56:46 CDT" duration-ms="67" status="FAIL">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at resources.base.initializeDriver(base.java:35)
-at org.example.validateNavigationBar.initialize(validateNavigationBar.java:20)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
-at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:619)
-at org.testng.TestRunner.beforeRun(TestRunner.java:609)
-at org.testng.TestRunner.run(TestRunner.java:580)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:68)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-at java.base/java.lang.Thread.run(Thread.java:830)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initialize -->
-        <test-method signature="verify_NavigationBar()[pri:0, instance:org.example.validateNavigationBar@2a8d39c4]" started-at="2020-09-25T07:56:46 CDT" name="verify_NavigationBar" finished-at="2020-09-25T07:56:46 CDT" duration-ms="0" status="SKIP">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at resources.base.initializeDriver(base.java:35)
-at org.example.validateNavigationBar.initialize(validateNavigationBar.java:20)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
-at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:619)
-at org.testng.TestRunner.beforeRun(TestRunner.java:609)
-at org.testng.TestRunner.run(TestRunner.java:580)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:68)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-at java.base/java.lang.Thread.run(Thread.java:830)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verify_NavigationBar -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:org.example.validateNavigationBar@2a8d39c4]" started-at="2020-09-25T07:56:46 CDT" name="teardown" finished-at="1969-12-31T18:00:00 CST" duration-ms="-1601038606511" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- org.example.validateNavigationBar -->
-    </test> <!-- Validate navigation bar -->
-    <test started-at="2020-09-25T07:56:46 CDT" name="Validate HomePage" finished-at="2020-09-25T07:56:46 CDT" duration-ms="145">
+    <test started-at="2020-10-28T10:14:30 CDT" name="Validate HomePage" finished-at="2020-10-28T10:14:39 CDT" duration-ms="9733">
       <class name="org.example.HomePage">
-        <test-method is-config="true" signature="initialize()[pri:0, instance:org.example.HomePage@3f0846c6]" started-at="2020-09-25T07:56:46 CDT" name="initialize" finished-at="2020-09-25T07:56:46 CDT" duration-ms="67" status="FAIL">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at resources.base.initializeDriver(base.java:35)
-at org.example.HomePage.initialize(HomePage.java:22)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
-at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:619)
-at org.testng.TestRunner.beforeRun(TestRunner.java:609)
-at org.testng.TestRunner.run(TestRunner.java:580)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:68)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-at java.base/java.lang.Thread.run(Thread.java:830)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+        <test-method is-config="true" signature="initialize()[pri:0, instance:org.example.HomePage@3f0846c6]" started-at="2020-10-28T10:14:30 CDT" name="initialize" finished-at="2020-10-28T10:14:32 CDT" duration-ms="2701" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method signature="basePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:org.example.HomePage@3f0846c6]" started-at="2020-09-25T07:56:46 CDT" name="basePageNavigation" data-provider="getData" finished-at="2020-09-25T07:56:46 CDT" duration-ms="0" status="SKIP">
-          <exception class="java.lang.NullPointerException">
+        <test-method signature="basePageNavigation(java.lang.String, java.lang.String)[pri:0, instance:org.example.HomePage@3f0846c6]" started-at="2020-10-28T10:14:32 CDT" name="basePageNavigation" data-provider="getData" finished-at="2020-10-28T10:14:37 CDT" duration-ms="4373" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <a _ngcontent-gau-c18="" href="https://courses.rahulshettyacademy.com/sign_in" class="theme-btn register-btn">...</a> is not clickable at point (1481, 28). Other element would receive the click: <div _ngcontent-gau-c18="" class="preloader">...</div>
+  (Session info: chrome=86.0.4240.111)
+Build info: version: '4.0.0-alpha-5', revision: 'b3a0d621cc'
+System info: host: 'Mohammads-iMac.home', ip: '192.168.254.14', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '13.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: /var/folders/ts/76vg2q_d5q1...}, goog:chromeOptions: {debuggerAddress: localhost:50265}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 761d2a108cf245239a9cf780b1820af5]]>
+            </message>
             <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at resources.base.initializeDriver(base.java:35)
-at org.example.HomePage.initialize(HomePage.java:22)
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a _ngcontent-gau-c18="" href="https://courses.rahulshettyacademy.com/sign_in" class="theme-btn register-btn">...</a> is not clickable at point (1481, 28). Other element would receive the click: <div _ngcontent-gau-c18="" class="preloader">...</div>
+  (Session info: chrome=86.0.4240.111)
+Build info: version: '4.0.0-alpha-5', revision: 'b3a0d621cc'
+System info: host: 'Mohammads-iMac.home', ip: '192.168.254.14', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '13.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: /var/folders/ts/76vg2q_d5q1...}, goog:chromeOptions: {debuggerAddress: localhost:50265}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 761d2a108cf245239a9cf780b1820af5
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:196)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:129)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:582)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:316)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
+at pageObjects.LandingPage.getLogin(LandingPage.java:22)
+at org.example.HomePage.basePageNavigation(HomePage.java:30)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 at java.base/java.lang.reflect.Method.invoke(Method.java:567)
 at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
-at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:619)
-at org.testng.TestRunner.beforeRun(TestRunner.java:609)
-at org.testng.TestRunner.run(TestRunner.java:580)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
 at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
 at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
@@ -205,27 +98,71 @@ at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecut
 at java.base/java.lang.Thread.run(Thread.java:830)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- basePageNavigation -->
-        <test-method signature="basePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:org.example.HomePage@3f0846c6]" started-at="2020-09-25T07:56:46 CDT" name="basePageNavigation" data-provider="getData" finished-at="2020-09-25T07:56:46 CDT" duration-ms="0" status="SKIP">
-          <exception class="java.lang.NullPointerException">
+        <test-method signature="basePageNavigation(java.lang.String, java.lang.String)[pri:0, instance:org.example.HomePage@3f0846c6]" started-at="2020-10-28T10:14:37 CDT" name="basePageNavigation" data-provider="getData" finished-at="2020-10-28T10:14:39 CDT" duration-ms="1630" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password1]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <a _ngcontent-mbw-c18="" href="https://courses.rahulshettyacademy.com/sign_in" class="theme-btn register-btn">...</a> is not clickable at point (1482, 27). Other element would receive the click: <div _ngcontent-mbw-c18="" class="preloader">...</div>
+  (Session info: chrome=86.0.4240.111)
+Build info: version: '4.0.0-alpha-5', revision: 'b3a0d621cc'
+System info: host: 'Mohammads-iMac.home', ip: '192.168.254.14', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '13.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: /var/folders/ts/76vg2q_d5q1...}, goog:chromeOptions: {debuggerAddress: localhost:50265}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 761d2a108cf245239a9cf780b1820af5]]>
+            </message>
             <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at resources.base.initializeDriver(base.java:35)
-at org.example.HomePage.initialize(HomePage.java:22)
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a _ngcontent-mbw-c18="" href="https://courses.rahulshettyacademy.com/sign_in" class="theme-btn register-btn">...</a> is not clickable at point (1482, 27). Other element would receive the click: <div _ngcontent-mbw-c18="" class="preloader">...</div>
+  (Session info: chrome=86.0.4240.111)
+Build info: version: '4.0.0-alpha-5', revision: 'b3a0d621cc'
+System info: host: 'Mohammads-iMac.home', ip: '192.168.254.14', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '13.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: /var/folders/ts/76vg2q_d5q1...}, goog:chromeOptions: {debuggerAddress: localhost:50265}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 761d2a108cf245239a9cf780b1820af5
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:196)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:129)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:582)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:316)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
+at pageObjects.LandingPage.getLogin(LandingPage.java:22)
+at org.example.HomePage.basePageNavigation(HomePage.java:30)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 at java.base/java.lang.reflect.Method.invoke(Method.java:567)
 at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
-at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:619)
-at org.testng.TestRunner.beforeRun(TestRunner.java:609)
-at org.testng.TestRunner.run(TestRunner.java:580)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
 at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
 at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
@@ -236,11 +173,11 @@ at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecut
 at java.base/java.lang.Thread.run(Thread.java:830)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- basePageNavigation -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:org.example.HomePage@3f0846c6]" started-at="2020-09-25T07:56:46 CDT" name="teardown" finished-at="1969-12-31T18:00:00 CST" duration-ms="-1601038606511" status="SKIP">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:org.example.HomePage@3f0846c6]" started-at="2020-10-28T10:14:39 CDT" name="teardown" finished-at="2020-10-28T10:14:39 CDT" duration-ms="75" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->

@@ -27,7 +27,7 @@ public void initialize() throws IOException {
     public void verify_validateTitle() throws IOException {
 
       LandingPage l = new LandingPage(driver);
-      String title = "FEATURED COURSES";
+      String title = "Featured Courses";
       Assert.assertEquals(l.getFeatured().getText(),title);
       Assert.assertTrue(l.getNavigationBar());
     log.info("Successfully validated text message.");
