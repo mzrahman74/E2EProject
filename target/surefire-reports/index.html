@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods, 2 failed,   1 passed</span>
+                    <span class="method-stats">4 methods, 2 failed,   2 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -121,6 +121,11 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="org.example.validateNavigationBar" class="method navigator-link" hash-for-method="verify_NavigationBar">verify_NavigationBar</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="org.example.validateTitle" class="method navigator-link" hash-for-method="verify_validateTitle">verify_validateTitle</a> <!-- method navigator-link -->
                       </span>
                       <br/>
@@ -148,13 +153,12 @@
                   </a> <!-- basePageNavigation(username, password) -->
                   <span class="method-name">basePageNavigation</span>
                   <span class="parameters">(username, password)</span>
-                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a _ngcontent-gau-c18=&quot;&quot; href=&quot;https://courses.rahulshettyacademy.com/sign_in&quot; class=&quot;theme-btn register-btn&quot;&gt;...&lt;/a&gt; is not clickable at point (1481, 28). Other element would receive the click: &lt;div _ngcontent-gau-c18=&quot;&quot; class=&quot;preloader&quot;&gt;...&lt;/div&gt;
-  (Session info: chrome=86.0.4240.111)
+                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: Element &lt;a class=&quot;theme-btn register-btn&quot; href=&quot;https://courses.rahulshettyacademy.com/sign_in&quot;&gt; is not clickable at point (1482,27) because another element &lt;div class=&quot;preloader&quot;&gt; obscures it
 Build info: version: &apos;4.0.0-alpha-5&apos;, revision: &apos;b3a0d621cc&apos;
 System info: host: &apos;Mohammads-iMac.home&apos;, ip: &apos;192.168.254.14&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.7&apos;, java.version: &apos;13.0.1&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: /var/folders/ts/76vg2q_d5q1...}, goog:chromeOptions: {debuggerAddress: localhost:50265}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 761d2a108cf245239a9cf780b1820af5
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 17649, moz:profile: /var/folders/ts/76vg2q_d5q1..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 19.6.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: f8be4f5c-1837-0c47-9604-6150793bcb95
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:196)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:129)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
@@ -180,13 +184,12 @@ Session ID: 761d2a108cf245239a9cf780b1820af5
                   </a> <!-- basePageNavigation(username1, Password1) -->
                   <span class="method-name">basePageNavigation</span>
                   <span class="parameters">(username1, Password1)</span>
-                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a _ngcontent-mbw-c18=&quot;&quot; href=&quot;https://courses.rahulshettyacademy.com/sign_in&quot; class=&quot;theme-btn register-btn&quot;&gt;...&lt;/a&gt; is not clickable at point (1482, 27). Other element would receive the click: &lt;div _ngcontent-mbw-c18=&quot;&quot; class=&quot;preloader&quot;&gt;...&lt;/div&gt;
-  (Session info: chrome=86.0.4240.111)
+                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: Element &lt;a class=&quot;theme-btn register-btn&quot; href=&quot;https://courses.rahulshettyacademy.com/sign_in&quot;&gt; is not clickable at point (1482,27) because another element &lt;div class=&quot;preloader&quot;&gt; obscures it
 Build info: version: &apos;4.0.0-alpha-5&apos;, revision: &apos;b3a0d621cc&apos;
 System info: host: &apos;Mohammads-iMac.home&apos;, ip: &apos;192.168.254.14&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.7&apos;, java.version: &apos;13.0.1&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: /var/folders/ts/76vg2q_d5q1...}, goog:chromeOptions: {debuggerAddress: localhost:50265}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 761d2a108cf245239a9cf780b1820af5
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 17649, moz:profile: /var/folders/ts/76vg2q_d5q1..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 19.6.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: f8be4f5c-1837-0c47-9604-6150793bcb95
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:196)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:129)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
@@ -219,6 +222,21 @@ Session ID: 761d2a108cf245239a9cf780b1820af5
                   <a name="verify_validateTitle">
                   </a> <!-- verify_validateTitle -->
                   <span class="method-name">verify_validateTitle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">org.example.validateNavigationBar</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_NavigationBar">
+                  </a> <!-- verify_NavigationBar -->
+                  <span class="method-name">verify_NavigationBar</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -294,24 +312,28 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(3);
+data.addRows(4);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'basePageNavigation')
 data.setCell(0, 2, 'org.example.HomePage')
-data.setCell(0, 3, 4373);
+data.setCell(0, 3, 6187);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'verify_validateTitle')
-data.setCell(1, 2, 'org.example.validateTitle')
-data.setCell(1, 3, 3847);
+data.setCell(1, 1, 'basePageNavigation')
+data.setCell(1, 2, 'org.example.HomePage')
+data.setCell(1, 3, 750);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'basePageNavigation')
-data.setCell(2, 2, 'org.example.HomePage')
-data.setCell(2, 3, 1630);
+data.setCell(2, 1, 'verify_NavigationBar')
+data.setCell(2, 2, 'org.example.validateNavigationBar')
+data.setCell(2, 3, 348);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'verify_validateTitle')
+data.setCell(3, 2, 'org.example.validateTitle')
+data.setCell(3, 3, 104);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 9 seconds</span>
+              <span class="suite-total-time">Total running time: 16 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -337,6 +359,13 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
+              <div class="chronological-class-name">org.example.validateNavigationBar</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">initialize</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
               <div class="chronological-class-name">org.example.validateTitle</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">initialize</span>
@@ -349,36 +378,34 @@ return data;
                 <span class="method-name">initialize</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">org.example.validateNavigationBar</div> <!-- chronological-class-name -->
-              <div class="configuration-test before">
-                <span class="method-name">initialize</span>
-                <span class="method-start">0 ms</span>
-              </div> <!-- configuration-test before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">org.example.HomePage</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">basePageNavigation(username, password)</span>
-                <span class="method-start">2734 ms</span>
+                <span class="method-start">7003 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">org.example.validateNavigationBar</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">verify_NavigationBar</span>
-                <span class="method-start">4496 ms</span>
+                <span class="method-start">12433 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">12798 ms</span>
+              </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">org.example.validateTitle</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">verify_validateTitle</span>
-                <span class="method-start">4557 ms</span>
+                <span class="method-start">13225 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">13330 ms</span>
+              </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">org.example.HomePage</div> <!-- chronological-class-name -->
@@ -386,28 +413,11 @@ return data;
                 <img src="failed.png">
                 </img>
                 <span class="method-name">basePageNavigation(username1, Password1)</span>
-                <span class="method-start">7641 ms</span>
+                <span class="method-start">14688 ms</span>
               </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">org.example.validateNavigationBar</div> <!-- chronological-class-name -->
               <div class="configuration-test after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">7911 ms</span>
-              </div> <!-- configuration-test after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">org.example.validateTitle</div> <!-- chronological-class-name -->
-              <div class="configuration-test after">
-                <span class="method-name">teardown</span>
-                <span class="method-start">8405 ms</span>
-              </div> <!-- configuration-test after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">org.example.HomePage</div> <!-- chronological-class-name -->
-              <div class="configuration-test after">
-                <span class="method-name">teardown</span>
-                <span class="method-start">9650 ms</span>
+                <span class="method-start">15527 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

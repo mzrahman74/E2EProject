@@ -1,26 +1,24 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 10.902 s <<< FAILURE! - in TestSuite
-org.example.HomePage.basePageNavigation[username, password](1)  Time elapsed: 2.56 s  <<< FAILURE!
+Tests run: 4, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 17.16 s <<< FAILURE! - in TestSuite
+org.example.HomePage.basePageNavigation[username, password](1)  Time elapsed: 0.763 s  <<< FAILURE!
 org.openqa.selenium.ElementClickInterceptedException: 
-element click intercepted: Element <a _ngcontent-gau-c18="" href="https://courses.rahulshettyacademy.com/sign_in" class="theme-btn register-btn">...</a> is not clickable at point (1481, 28). Other element would receive the click: <div _ngcontent-gau-c18="" class="preloader">...</div>
-  (Session info: chrome=86.0.4240.111)
+Element <a class="theme-btn register-btn" href="https://courses.rahulshettyacademy.com/sign_in"> is not clickable at point (1482,27) because another element <div class="preloader"> obscures it
 Build info: version: '4.0.0-alpha-5', revision: 'b3a0d621cc'
 System info: host: 'Mohammads-iMac.home', ip: '192.168.254.14', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '13.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: /var/folders/ts/76vg2q_d5q1...}, goog:chromeOptions: {debuggerAddress: localhost:50265}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 761d2a108cf245239a9cf780b1820af5
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 17649, moz:profile: /var/folders/ts/76vg2q_d5q1..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 19.6.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: f8be4f5c-1837-0c47-9604-6150793bcb95
 	at org.example.HomePage.basePageNavigation(HomePage.java:30)
 
-org.example.HomePage.basePageNavigation[username1, Password1](2)  Time elapsed: 1.633 s  <<< FAILURE!
+org.example.HomePage.basePageNavigation[username1, Password1](2)  Time elapsed: 0.749 s  <<< FAILURE!
 org.openqa.selenium.ElementClickInterceptedException: 
-element click intercepted: Element <a _ngcontent-mbw-c18="" href="https://courses.rahulshettyacademy.com/sign_in" class="theme-btn register-btn">...</a> is not clickable at point (1482, 27). Other element would receive the click: <div _ngcontent-mbw-c18="" class="preloader">...</div>
-  (Session info: chrome=86.0.4240.111)
+Element <a class="theme-btn register-btn" href="https://courses.rahulshettyacademy.com/sign_in"> is not clickable at point (1482,27) because another element <div class="preloader"> obscures it
 Build info: version: '4.0.0-alpha-5', revision: 'b3a0d621cc'
 System info: host: 'Mohammads-iMac.home', ip: '192.168.254.14', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '13.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: /var/folders/ts/76vg2q_d5q1...}, goog:chromeOptions: {debuggerAddress: localhost:50265}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 761d2a108cf245239a9cf780b1820af5
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 17649, moz:profile: /var/folders/ts/76vg2q_d5q1..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 19.6.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: f8be4f5c-1837-0c47-9604-6150793bcb95
 	at org.example.HomePage.basePageNavigation(HomePage.java:30)
 

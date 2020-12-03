@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Suite" parallel ="tests">
+<suite name="Suite" >
     <listeners>
         <listener class-name="org.example.Listeners"/>
 
@@ -20,14 +20,11 @@
                  <class name="org.example.validateTitle"/>
         </classes>
     </test>
-    <test name="Validate Reset Password">
+    <test name="ResetPassword">
         <classes>
-            <class name="org.example.ResetPassword"/>
-
-<!--                <methods>-->
-<!--                    <include name=/>-->
-<!--                </methods>-->
-             <!-- org.Java.spice.windows -->
+            <class name ="org.example.ResetPassword"></class>
         </classes>
-    </test> <!-- SeleniumProject -->
+
+    </test>
+
 </suite> <!-- Default Suite -->

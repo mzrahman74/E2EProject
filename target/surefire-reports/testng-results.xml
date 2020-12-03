@@ -1,33 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="1" failed="2" skipped="0">
+<testng-results ignored="0" total="4" passed="2" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-10-28T10:14:30 CDT" name="Suite" finished-at="2020-10-28T10:14:39 CDT" duration-ms="9733">
+  <suite started-at="2020-12-02T08:22:31 CST" name="Suite" finished-at="2020-12-02T08:22:47 CST" duration-ms="16143">
     <groups>
     </groups>
-    <test started-at="2020-10-28T10:14:30 CDT" name="Validate Title" finished-at="2020-10-28T10:14:38 CDT" duration-ms="8466">
+    <test started-at="2020-12-02T08:22:31 CST" name="Validate Title" finished-at="2020-12-02T08:22:46 CST" duration-ms="14813">
       <class name="org.example.validateTitle">
-        <test-method is-config="true" signature="initialize()[pri:0, instance:org.example.validateTitle@60a2630a]" started-at="2020-10-28T10:14:30 CDT" name="initialize" finished-at="2020-10-28T10:14:34 CDT" duration-ms="4556" status="PASS">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:org.example.validateTitle@60a2630a]" started-at="2020-12-02T08:22:31 CST" name="initialize" finished-at="2020-12-02T08:22:44 CST" duration-ms="13224" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method signature="verify_validateTitle()[pri:0, instance:org.example.validateTitle@60a2630a]" started-at="2020-10-28T10:14:34 CDT" name="verify_validateTitle" finished-at="2020-10-28T10:14:38 CDT" duration-ms="3847" status="PASS">
+        <test-method signature="verify_validateTitle()[pri:0, instance:org.example.validateTitle@60a2630a]" started-at="2020-12-02T08:22:44 CST" name="verify_validateTitle" finished-at="2020-12-02T08:22:44 CST" duration-ms="104" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_validateTitle -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:org.example.validateTitle@60a2630a]" started-at="2020-10-28T10:14:38 CDT" name="teardown" finished-at="2020-10-28T10:14:38 CDT" duration-ms="55" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:org.example.validateTitle@60a2630a]" started-at="2020-12-02T08:22:44 CST" name="teardown" finished-at="2020-12-02T08:22:46 CST" duration-ms="1468" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- org.example.validateTitle -->
     </test> <!-- Validate Title -->
-    <test started-at="2020-10-28T10:14:30 CDT" name="Validate HomePage" finished-at="2020-10-28T10:14:39 CDT" duration-ms="9733">
-      <class name="org.example.HomePage">
-        <test-method is-config="true" signature="initialize()[pri:0, instance:org.example.HomePage@3f0846c6]" started-at="2020-10-28T10:14:30 CDT" name="initialize" finished-at="2020-10-28T10:14:32 CDT" duration-ms="2701" status="PASS">
+    <test started-at="2020-12-02T08:22:31 CST" name="Validate navigation bar" finished-at="2020-12-02T08:22:46 CST" duration-ms="14426">
+      <class name="org.example.validateNavigationBar">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:org.example.validateNavigationBar@2a8d39c4]" started-at="2020-12-02T08:22:31 CST" name="initialize" finished-at="2020-12-02T08:22:44 CST" duration-ms="12432" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method signature="basePageNavigation(java.lang.String, java.lang.String)[pri:0, instance:org.example.HomePage@3f0846c6]" started-at="2020-10-28T10:14:32 CDT" name="basePageNavigation" data-provider="getData" finished-at="2020-10-28T10:14:37 CDT" duration-ms="4373" status="FAIL">
+        <test-method signature="verify_NavigationBar()[pri:0, instance:org.example.validateNavigationBar@2a8d39c4]" started-at="2020-12-02T08:22:44 CST" name="verify_NavigationBar" finished-at="2020-12-02T08:22:44 CST" duration-ms="348" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_NavigationBar -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:org.example.validateNavigationBar@2a8d39c4]" started-at="2020-12-02T08:22:44 CST" name="teardown" finished-at="2020-12-02T08:22:46 CST" duration-ms="1613" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- org.example.validateNavigationBar -->
+    </test> <!-- Validate navigation bar -->
+    <test started-at="2020-12-02T08:22:31 CST" name="Validate HomePage" finished-at="2020-12-02T08:22:47 CST" duration-ms="16143">
+      <class name="org.example.HomePage">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:org.example.HomePage@3f0846c6]" started-at="2020-12-02T08:22:31 CST" name="initialize" finished-at="2020-12-02T08:22:38 CST" duration-ms="6977" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="basePageNavigation(java.lang.String, java.lang.String)[pri:0, instance:org.example.HomePage@3f0846c6]" started-at="2020-12-02T08:22:38 CST" name="basePageNavigation" data-provider="getData" finished-at="2020-12-02T08:22:44 CST" duration-ms="6187" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -42,22 +58,20 @@
           </params>
           <exception class="org.openqa.selenium.ElementClickInterceptedException">
             <message>
-              <![CDATA[element click intercepted: Element <a _ngcontent-gau-c18="" href="https://courses.rahulshettyacademy.com/sign_in" class="theme-btn register-btn">...</a> is not clickable at point (1481, 28). Other element would receive the click: <div _ngcontent-gau-c18="" class="preloader">...</div>
-  (Session info: chrome=86.0.4240.111)
+              <![CDATA[Element <a class="theme-btn register-btn" href="https://courses.rahulshettyacademy.com/sign_in"> is not clickable at point (1482,27) because another element <div class="preloader"> obscures it
 Build info: version: '4.0.0-alpha-5', revision: 'b3a0d621cc'
 System info: host: 'Mohammads-iMac.home', ip: '192.168.254.14', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '13.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: /var/folders/ts/76vg2q_d5q1...}, goog:chromeOptions: {debuggerAddress: localhost:50265}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 761d2a108cf245239a9cf780b1820af5]]>
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 17649, moz:profile: /var/folders/ts/76vg2q_d5q1..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 19.6.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: f8be4f5c-1837-0c47-9604-6150793bcb95]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a _ngcontent-gau-c18="" href="https://courses.rahulshettyacademy.com/sign_in" class="theme-btn register-btn">...</a> is not clickable at point (1481, 28). Other element would receive the click: <div _ngcontent-gau-c18="" class="preloader">...</div>
-  (Session info: chrome=86.0.4240.111)
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: Element <a class="theme-btn register-btn" href="https://courses.rahulshettyacademy.com/sign_in"> is not clickable at point (1482,27) because another element <div class="preloader"> obscures it
 Build info: version: '4.0.0-alpha-5', revision: 'b3a0d621cc'
 System info: host: 'Mohammads-iMac.home', ip: '192.168.254.14', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '13.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: /var/folders/ts/76vg2q_d5q1...}, goog:chromeOptions: {debuggerAddress: localhost:50265}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 761d2a108cf245239a9cf780b1820af5
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 17649, moz:profile: /var/folders/ts/76vg2q_d5q1..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 19.6.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: f8be4f5c-1837-0c47-9604-6150793bcb95
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -102,7 +116,7 @@ at java.base/java.lang.Thread.run(Thread.java:830)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- basePageNavigation -->
-        <test-method signature="basePageNavigation(java.lang.String, java.lang.String)[pri:0, instance:org.example.HomePage@3f0846c6]" started-at="2020-10-28T10:14:37 CDT" name="basePageNavigation" data-provider="getData" finished-at="2020-10-28T10:14:39 CDT" duration-ms="1630" status="FAIL">
+        <test-method signature="basePageNavigation(java.lang.String, java.lang.String)[pri:0, instance:org.example.HomePage@3f0846c6]" started-at="2020-12-02T08:22:46 CST" name="basePageNavigation" data-provider="getData" finished-at="2020-12-02T08:22:47 CST" duration-ms="750" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -117,22 +131,20 @@ at java.base/java.lang.Thread.run(Thread.java:830)
           </params>
           <exception class="org.openqa.selenium.ElementClickInterceptedException">
             <message>
-              <![CDATA[element click intercepted: Element <a _ngcontent-mbw-c18="" href="https://courses.rahulshettyacademy.com/sign_in" class="theme-btn register-btn">...</a> is not clickable at point (1482, 27). Other element would receive the click: <div _ngcontent-mbw-c18="" class="preloader">...</div>
-  (Session info: chrome=86.0.4240.111)
+              <![CDATA[Element <a class="theme-btn register-btn" href="https://courses.rahulshettyacademy.com/sign_in"> is not clickable at point (1482,27) because another element <div class="preloader"> obscures it
 Build info: version: '4.0.0-alpha-5', revision: 'b3a0d621cc'
 System info: host: 'Mohammads-iMac.home', ip: '192.168.254.14', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '13.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: /var/folders/ts/76vg2q_d5q1...}, goog:chromeOptions: {debuggerAddress: localhost:50265}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 761d2a108cf245239a9cf780b1820af5]]>
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 17649, moz:profile: /var/folders/ts/76vg2q_d5q1..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 19.6.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: f8be4f5c-1837-0c47-9604-6150793bcb95]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a _ngcontent-mbw-c18="" href="https://courses.rahulshettyacademy.com/sign_in" class="theme-btn register-btn">...</a> is not clickable at point (1482, 27). Other element would receive the click: <div _ngcontent-mbw-c18="" class="preloader">...</div>
-  (Session info: chrome=86.0.4240.111)
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: Element <a class="theme-btn register-btn" href="https://courses.rahulshettyacademy.com/sign_in"> is not clickable at point (1482,27) because another element <div class="preloader"> obscures it
 Build info: version: '4.0.0-alpha-5', revision: 'b3a0d621cc'
 System info: host: 'Mohammads-iMac.home', ip: '192.168.254.14', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '13.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: /var/folders/ts/76vg2q_d5q1...}, goog:chromeOptions: {debuggerAddress: localhost:50265}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 761d2a108cf245239a9cf780b1820af5
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 17649, moz:profile: /var/folders/ts/76vg2q_d5q1..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 19.6.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: f8be4f5c-1837-0c47-9604-6150793bcb95
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -177,7 +189,7 @@ at java.base/java.lang.Thread.run(Thread.java:830)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- basePageNavigation -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:org.example.HomePage@3f0846c6]" started-at="2020-10-28T10:14:39 CDT" name="teardown" finished-at="2020-10-28T10:14:39 CDT" duration-ms="75" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:org.example.HomePage@3f0846c6]" started-at="2020-12-02T08:22:47 CST" name="teardown" finished-at="2020-12-02T08:22:47 CST" duration-ms="599" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->

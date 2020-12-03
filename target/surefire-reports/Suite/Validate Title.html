@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Wed Oct 28 10:14:30 CDT 2020</td>
+<td>Started on:</td><td>Wed Dec 02 08:22:31 CST 2020</td>
 </tr>
-<tr><td>Total time:</td><td>8 seconds (8466 ms)</td>
+<tr><td>Total time:</td><td>14 seconds (14813 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,13 +76,12 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='org.example.HomePage.basePageNavigation()'><b>basePageNavigation</b><br>Test class: org.example.HomePage<br>Parameters: username, password</td>
-<td><div><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a _ngcontent-gau-c18=&quot;&quot; href=&quot;https://courses.rahulshettyacademy.com/sign_in&quot; class=&quot;theme-btn register-btn&quot;&gt;...&lt;/a&gt; is not clickable at point (1481, 28). Other element would receive the click: &lt;div _ngcontent-gau-c18=&quot;&quot; class=&quot;preloader&quot;&gt;...&lt;/div&gt;
-  (Session info: chrome=86.0.4240.111)
+<td><div><pre>org.openqa.selenium.ElementClickInterceptedException: Element &lt;a class=&quot;theme-btn register-btn&quot; href=&quot;https://courses.rahulshettyacademy.com/sign_in&quot;&gt; is not clickable at point (1482,27) because another element &lt;div class=&quot;preloader&quot;&gt; obscures it
 Build info: version: &apos;4.0.0-alpha-5&apos;, revision: &apos;b3a0d621cc&apos;
 System info: host: &apos;Mohammads-iMac.home&apos;, ip: &apos;192.168.254.14&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.7&apos;, java.version: &apos;13.0.1&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: /var/folders/ts/76vg2q_d5q1...}, goog:chromeOptions: {debuggerAddress: localhost:50265}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 761d2a108cf245239a9cf780b1820af5
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 17649, moz:profile: /var/folders/ts/76vg2q_d5q1..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 19.6.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: f8be4f5c-1837-0c47-9604-6150793bcb95
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:196)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:129)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
@@ -98,14 +97,13 @@ Session ID: 761d2a108cf245239a9cf780b1820af5
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at java.base/java.lang.Thread.run(Thread.java:830)
-... Removed 23 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace173979916", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace173979916'><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a _ngcontent-gau-c18=&quot;&quot; href=&quot;https://courses.rahulshettyacademy.com/sign_in&quot; class=&quot;theme-btn register-btn&quot;&gt;...&lt;/a&gt; is not clickable at point (1481, 28). Other element would receive the click: &lt;div _ngcontent-gau-c18=&quot;&quot; class=&quot;preloader&quot;&gt;...&lt;/div&gt;
-  (Session info: chrome=86.0.4240.111)
+... Removed 23 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1893057602", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1893057602'><pre>org.openqa.selenium.ElementClickInterceptedException: Element &lt;a class=&quot;theme-btn register-btn&quot; href=&quot;https://courses.rahulshettyacademy.com/sign_in&quot;&gt; is not clickable at point (1482,27) because another element &lt;div class=&quot;preloader&quot;&gt; obscures it
 Build info: version: &apos;4.0.0-alpha-5&apos;, revision: &apos;b3a0d621cc&apos;
 System info: host: &apos;Mohammads-iMac.home&apos;, ip: &apos;192.168.254.14&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.7&apos;, java.version: &apos;13.0.1&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: /var/folders/ts/76vg2q_d5q1...}, goog:chromeOptions: {debuggerAddress: localhost:50265}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 761d2a108cf245239a9cf780b1820af5
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 17649, moz:profile: /var/folders/ts/76vg2q_d5q1..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 19.6.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: f8be4f5c-1837-0c47-9604-6150793bcb95
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -145,17 +143,16 @@ Session ID: 761d2a108cf245239a9cf780b1820af5
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at java.base/java.lang.Thread.run(Thread.java:830)
 </pre></div></td>
-<td>4</td>
+<td>6</td>
 <td>org.example.HomePage@3f0846c6</td></tr>
 <tr>
 <td title='org.example.HomePage.basePageNavigation()'><b>basePageNavigation</b><br>Test class: org.example.HomePage<br>Parameters: username1, Password1</td>
-<td><div><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a _ngcontent-mbw-c18=&quot;&quot; href=&quot;https://courses.rahulshettyacademy.com/sign_in&quot; class=&quot;theme-btn register-btn&quot;&gt;...&lt;/a&gt; is not clickable at point (1482, 27). Other element would receive the click: &lt;div _ngcontent-mbw-c18=&quot;&quot; class=&quot;preloader&quot;&gt;...&lt;/div&gt;
-  (Session info: chrome=86.0.4240.111)
+<td><div><pre>org.openqa.selenium.ElementClickInterceptedException: Element &lt;a class=&quot;theme-btn register-btn&quot; href=&quot;https://courses.rahulshettyacademy.com/sign_in&quot;&gt; is not clickable at point (1482,27) because another element &lt;div class=&quot;preloader&quot;&gt; obscures it
 Build info: version: &apos;4.0.0-alpha-5&apos;, revision: &apos;b3a0d621cc&apos;
 System info: host: &apos;Mohammads-iMac.home&apos;, ip: &apos;192.168.254.14&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.7&apos;, java.version: &apos;13.0.1&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: /var/folders/ts/76vg2q_d5q1...}, goog:chromeOptions: {debuggerAddress: localhost:50265}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 761d2a108cf245239a9cf780b1820af5
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 17649, moz:profile: /var/folders/ts/76vg2q_d5q1..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 19.6.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: f8be4f5c-1837-0c47-9604-6150793bcb95
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:196)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:129)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
@@ -171,14 +168,13 @@ Session ID: 761d2a108cf245239a9cf780b1820af5
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at java.base/java.lang.Thread.run(Thread.java:830)
-... Removed 23 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace593329813", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace593329813'><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a _ngcontent-mbw-c18=&quot;&quot; href=&quot;https://courses.rahulshettyacademy.com/sign_in&quot; class=&quot;theme-btn register-btn&quot;&gt;...&lt;/a&gt; is not clickable at point (1482, 27). Other element would receive the click: &lt;div _ngcontent-mbw-c18=&quot;&quot; class=&quot;preloader&quot;&gt;...&lt;/div&gt;
-  (Session info: chrome=86.0.4240.111)
+... Removed 23 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1077230028", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1077230028'><pre>org.openqa.selenium.ElementClickInterceptedException: Element &lt;a class=&quot;theme-btn register-btn&quot; href=&quot;https://courses.rahulshettyacademy.com/sign_in&quot;&gt; is not clickable at point (1482,27) because another element &lt;div class=&quot;preloader&quot;&gt; obscures it
 Build info: version: &apos;4.0.0-alpha-5&apos;, revision: &apos;b3a0d621cc&apos;
 System info: host: &apos;Mohammads-iMac.home&apos;, ip: &apos;192.168.254.14&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.7&apos;, java.version: &apos;13.0.1&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: /var/folders/ts/76vg2q_d5q1...}, goog:chromeOptions: {debuggerAddress: localhost:50265}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 761d2a108cf245239a9cf780b1820af5
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 17649, moz:profile: /var/folders/ts/76vg2q_d5q1..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 19.6.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: f8be4f5c-1837-0c47-9604-6150793bcb95
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -218,7 +214,7 @@ Session ID: 761d2a108cf245239a9cf780b1820af5
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at java.base/java.lang.Thread.run(Thread.java:830)
 </pre></div></td>
-<td>1</td>
+<td>0</td>
 <td>org.example.HomePage@3f0846c6</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
@@ -231,12 +227,12 @@ Session ID: 761d2a108cf245239a9cf780b1820af5
 <tr>
 <td title='org.example.validateNavigationBar.verify_NavigationBar()'><b>verify_NavigationBar</b><br>Test class: org.example.validateNavigationBar</td>
 <td></td>
-<td>3</td>
+<td>0</td>
 <td>org.example.validateNavigationBar@2a8d39c4</td></tr>
 <tr>
 <td title='org.example.validateTitle.verify_validateTitle()'><b>verify_validateTitle</b><br>Test class: org.example.validateTitle</td>
 <td></td>
-<td>3</td>
+<td>0</td>
 <td>org.example.validateTitle@60a2630a</td></tr>
 </table><p>
 </body>

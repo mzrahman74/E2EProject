@@ -1,4 +1,6 @@
-07:55:36.303 [AsyncHttpClient-3-1] DEBUG io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkBounds: true
-07:55:36.304 [AsyncHttpClient-3-1] DEBUG io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@5d27c000
-07:55:36.627 [AsyncHttpClient-3-1] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.maxCapacityPerThread: 4096
-07:55:36.627 [AsyncHttpClient-3-1] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+08:20:28.377 [AsyncHttpClient-3-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+08:20:28.379 [AsyncHttpClient-3-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.linkCapacity: 16
+08:20:28.379 [AsyncHttpClient-3-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.ratio: 8
+08:20:35.206 [TestNG-tests-4] INFO  org.example.ResetPassword - Driver is installed.
+08:20:35.322 [TestNG-tests-3] INFO  org.example.validateTitle - Driver is installed. 
+08:20:42.206 [TestNG-tests-4] INFO  org.example.ResetPassword - Password reset page.
